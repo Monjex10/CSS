@@ -1,0 +1,77 @@
+body {
+    color: tomato;
+}
+p.texto {
+    color:antiquewhite;
+}
+p.especial{
+    color:beige;
+}
+div p {
+    color:brown;
+}
+
+div h2, div h3 {
+    color:blue;
+}
+* {
+    font-size: 24px;
+    /* color: black; */
+}
+/* esto es 
+
+.color {
+    color:#ff0000;
+}
+.color{
+    color: rgb(0, 255, 255);
+}
+un comentario*/
+.color {
+  /* border: 5px black solid;
+ */
+ border-style: solid;
+ border-color: blue;
+ border-radius: 5px;
+ border-width: 2rem;
+ 
+}
+#fondo {
+    background-color: rgb(255, 0, 0); 
+    /* opacity: 1.0; */
+    height: 200px;
+    background: #f00 url("img/mara.jpg") repeat-y center bottom / 100px 100px;
+    
+}
+.margen {
+    background-color: chocolate;
+    margin: 15px ;
+    padding: 30px 15px 5px; 
+    border: solid 5px black;
+    height: 100px;
+    width: 50px;
+    overflow: scroll;
+    outline: 1px solid red;
+}
+.text{
+    font-family: "Noto Sans Vithkuqi";
+    text-align: justify;
+    text-decoration: overline;
+    text-shadow: 3px 5px 5px blue;
+}
+a:link{
+    color: blueviolet;
+}
+a:visited {
+    color:aquamarine;
+}
+a:hover {
+    color:chocolate;
+    
+}
+a:active {
+    color:crimson;
+}    
+ul{
+    background-color: cyan;
+}
